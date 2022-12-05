@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export default class events extends Component {
     state={
         username:""
+        
     }
     handleClick=()=>{
         console.log(this.state.username)

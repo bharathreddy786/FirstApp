@@ -40,25 +40,24 @@ function App(){
 
    
 
-   function App(){
-      return(
-         <div>
-            <BrowserRouter>
-            <Navbar/>
-            <Routes>
-               <Route path="/" element={<Home/>}/>
-               <Route path="/about" element={<About/>}/>
-               <Route path="/contact" element={<Contact/>}/>
-            </Routes>
-            </BrowserRouter>
-         </div>
-      )
-   }
-   export default App
+   // function App(){
+   //    return(
+   //       <div>
+   //          <BrowserRouter>
+   //          <Navbar/>
+   //          <Routes>
+   //             <Route path="/" element={<Home/>}/>
+   //             <Route path="/about" element={<About/>}/>
+   //             <Route path="/contact" element={<Contact/>}/>
+   //          </Routes>
+   //          </BrowserRouter>
+   //       </div>
+   //    )
+   // export default App
 
 
    function About(){
-      return React.createElement("div,id:"demo",className:"democlass"},
-      React.createElement("h1,null,"About page))
+      return React.createElement("div",{id:"demo",className:"democlass"},
+      React.createElement("h1",null,"About page))
    }
    export default App
